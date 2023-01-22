@@ -1,0 +1,23 @@
+body {
+	background: linear-gradient(90deg,rgb(195 171 88),#003e1b,rgb(122 48 150));
+}
+.container{
+    max-width: 400px;
+}
+
+.todos li{
+    background: #011a27;
+    font-size: 1.2em;
+}
+.delete{
+    cursor: pointer;
+}
+input[type='text'],input[type='text']:focus{
+    color:#fff;
+    border: none;
+    background-color: rgba(0,0,0,0.2);
+    max-width: 400px;
+}
+.filtered{
+    display: none !important;
+}
